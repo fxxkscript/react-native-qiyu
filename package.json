@@ -1,0 +1,21 @@
+{
+  "name": "react-native-qiyu",
+  "version": "3.12.0",
+  "description": "react-native netease qiyu sdk",
+  "main": "./react-native-qiyu/index.js",
+  "keywords": [
+    "netease",
+    "qiyu",
+    "sdk"
+  ],
+  "author": "Netease qiyu",
+  "license": "ISC",
+  "homepage": "http://qiyukf.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiyukf/react-native-qiyu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qiyukf/react-native-qiyu/issues"
+  }
+}
