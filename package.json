@@ -2,7 +2,7 @@
   "name": "react-native-qiyu",
   "version": "3.12.0",
   "description": "react-native netease qiyu sdk",
-  "main": "./react-native-qiyu/index.js",
+  "main": "./index.js",
   "keywords": [
     "netease",
     "qiyu",
