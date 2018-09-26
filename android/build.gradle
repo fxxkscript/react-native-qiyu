@@ -22,6 +22,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.facebook.react:react-native:+'
-    compile 'com.qiyukf.unicorn:unicorn:3.13.0'
+    compile 'com.qiyukf.unicorn:unicorn:4.4.0'
     //compile(name: 'unicorn-3.12.1', ext: 'aar')
 }
