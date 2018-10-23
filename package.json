@@ -1,6 +1,6 @@
 {
-  "name": "react-native-qiyu",
-  "version": "3.12.0",
+  "name": "qiyu",
+  "version": "0.0.1",
   "description": "react-native netease qiyu sdk",
   "main": "./index.js",
   "keywords": [
@@ -8,14 +8,14 @@
     "qiyu",
     "sdk"
   ],
-  "author": "Netease qiyu",
-  "license": "ISC",
-  "homepage": "http://qiyukf.com/",
+  "author": "Ray",
+  "license": "MIT",
+  "homepage": "https://github.com/rayqian/react-native-qiyu",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qiyukf/react-native-qiyu.git"
+    "url": "git+https://github.com/rayqian/react-native-qiyu.git"
   },
   "bugs": {
-    "url": "https://github.com/qiyukf/react-native-qiyu/issues"
+    "url": "https://github.com/rayqian/react-native-qiyu/issues"
   }
 }
