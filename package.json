@@ -9,7 +9,7 @@
     "sdk"
   ],
   "author": "Ray",
-  "license": "MIT",
+  "license": "ISC",
   "homepage": "https://github.com/rayqian/react-native-qiyu",
   "repository": {
     "type": "git",
