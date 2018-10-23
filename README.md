@@ -45,7 +45,7 @@ rnpm info Linking react-native-qiyu ios dependency
 
 工程配置
 ```
-在工程target的Build Phases->Link Binary with Libraries中加入UIKit.framework、CoreText.framework、MobileCoreService.framework、SystemConfiguration.framework、AVFoundation.framwork、CoreTelephony.framework、CoreMedia.framework、AudioToolbox.framework、libz.tbd、libstdc++.6.0.9.tbd、libsqlite3.0.tbd、libxml2.tbd、AssetsLibrary.framework等依赖库
+在工程target的Build Phases->Link Binary with Libraries中加入UIKit.framework、CoreText.framework、MobileCoreService.framework、SystemConfiguration.framework、AVFoundation.framwork、CoreTelephony.framework、CoreMedia.framework、AudioToolbox.framework、libz.tbd、libc++.tbd、libsqlite3.0.tbd、libxml2.tbd、AssetsLibrary.framework等依赖库
 ```
 iOS9传输安全问题
 ```

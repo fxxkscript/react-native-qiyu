@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Netease. All rights reserved.
 //
 
-#import "RCTUIManager.h"
+#import <React/RCTUIManager.h>
 //#import "RCTBridgeModule.h"
 
 @interface RCTQiYu : RCTViewManager
