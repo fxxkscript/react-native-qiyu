@@ -316,6 +316,7 @@ RCT_EXPORT_METHOD(cleanCache) {
         [[[QYSDK sharedSDK] customActionConfig] showQuitWaiting:^(QuitWaitingType quitType) {
             if (quitType != QuitWaitingTypeCancel) {
                 dispatch_async(dispatch_get_main_queue(), ^{
+                    [self.bridge.eventDispatcher sendDeviceEventWithName:@"close" body:nil];
                     [[UIApplication sharedApplication].keyWindow.rootViewController dismissViewControllerAnimated:YES completion:nil];
                     self.sessionVC = nil;
                 });
@@ -323,6 +324,7 @@ RCT_EXPORT_METHOD(cleanCache) {
         }];
     } else {
         dispatch_async(dispatch_get_main_queue(), ^{
+            [self.bridge.eventDispatcher sendDeviceEventWithName:@"close" body:nil];
             [[UIApplication sharedApplication].keyWindow.rootViewController dismissViewControllerAnimated:YES completion:nil];
             self.sessionVC = nil;
         });
