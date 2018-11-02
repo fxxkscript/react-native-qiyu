@@ -132,9 +132,6 @@ RCT_EXPORT_METHOD(setCustomUIConfig:(nonnull NSDictionary*)paramDict) {
     if ([paramDict objectForKey:@"bottomMargin"]) {
         [[QYSDK sharedSDK] customUIConfig].bottomMargin = [RCTConvert CGFloat:[paramDict objectForKey:@"bottomMargin"]];
     }
-//    if ([paramDict objectForKey:@"showCloseSessionEntry"]) {
-//        [[QYSDK sharedSDK] customUIConfig].showCloseSessionEntry = [RCTConvert BOOL:[paramDict objectForKey:@"showCloseSessionEntry"]];
-//    }
 }
 
 RCT_EXPORT_METHOD(setUrlClickWithEventName:(NSString*)EventName) {
@@ -195,6 +192,14 @@ RCT_EXPORT_METHOD(openServiceWindow:(nonnull NSDictionary*)paramDict){
     }
     dispatch_async(dispatch_get_main_queue(), ^{
         [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
+    });
+}
+
+RCT_EXPORT_METHOD(closeServiceWindow) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.bridge.eventDispatcher sendDeviceEventWithName:@"close" body:nil];
+        [[UIApplication sharedApplication].keyWindow.rootViewController dismissViewControllerAnimated:YES completion:nil];
+        self.sessionVC = nil;
     });
 }
 
