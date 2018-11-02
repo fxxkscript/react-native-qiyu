@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ray/Dev/AwesomeProject/node_modules/qiyu/android/build/intermediates/res/merged/debug/drawable-ldpi-v4/ysf_ic_action_camera.png",
+        "source": "/Users/ray/.android/build-cache/a19eefff6a46e358284a5dffbed6d066edb1ee52/output/res/drawable-ldpi-v4/ysf_ic_action_camera.png"
+    },
+    {
+        "merged": "/Users/ray/Dev/AwesomeProject/node_modules/qiyu/android/build/intermediates/res/merged/debug/drawable-ldpi-v4/ysf_ic_action_album.png",
+        "source": "/Users/ray/.android/build-cache/a19eefff6a46e358284a5dffbed6d066edb1ee52/output/res/drawable-ldpi-v4/ysf_ic_action_album.png"
+    },
+    {
+        "merged": "/Users/ray/Dev/AwesomeProject/node_modules/qiyu/android/build/intermediates/res/merged/debug/drawable-ldpi-v4/ysf_ic_actionpanel_strat.png",
+        "source": "/Users/ray/.android/build-cache/a19eefff6a46e358284a5dffbed6d066edb1ee52/output/res/drawable-ldpi-v4/ysf_ic_actionpanel_strat.png"
+    }
+]
